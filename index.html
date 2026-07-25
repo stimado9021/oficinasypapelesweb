@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oficinas y Papeles - Papeleria y Articulos de Oficina</title>
+  <meta name="description" content="Comercio al por menor de libros, periodicos, materiales y articulos de papeleria y escritorio. Encontre todo lo que necesita para su oficina y hogar.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">
+        <svg class="logo-icon" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#1A3A3D"/>
+              <stop offset="100%" style="stop-color:#20454A"/>
+            </linearGradient>
+            <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#FFFFFF"/>
+              <stop offset="100%" style="stop-color:rgba(255,255,255,0.8)"/>
+            </linearGradient>
+          </defs>
+          <polygon points="35,2 58,12 68,35 58,58 35,68 12,58 2,35 12,12" fill="url(#logoGrad)"/>
+          <path d="M20,22 L20,48 Q35,42 35,42 Q35,42 50,48 L50,22 Q35,28 35,28 Q35,28 20,22Z" fill="white" opacity="0.95"/>
+          <line x1="35" y1="28" x2="35" y2="45" stroke="white" stroke-width="1.5" opacity="0.3"/>
+          <path d="M23,27 L32,30" stroke="white" stroke-width="1.2" opacity="0.4"/>
+          <path d="M23,31 L32,34" stroke="white" stroke-width="1.2" opacity="0.3"/>
+          <path d="M23,35 L30,37.5" stroke="white" stroke-width="1.2" opacity="0.25"/>
+          <path d="M38,30 L47,27" stroke="white" stroke-width="1.2" opacity="0.4"/>
+          <path d="M38,34 L47,31" stroke="white" stroke-width="1.2" opacity="0.3"/>
+          <path d="M38,37.5 L45,35" stroke="white" stroke-width="1.2" opacity="0.25"/>
+          <g transform="translate(44,10) rotate(35)">
+            <rect x="0" y="0" width="4" height="20" rx="1" fill="white" opacity="0.8"/>
+            <polygon points="0,20 4,20 2,25" fill="white" opacity="0.6"/>
+            <rect x="0" y="0" width="4" height="3" rx="1" fill="white" opacity="0.5"/>
+          </g>
+          <circle cx="35" cy="35" r="30" fill="none" stroke="white" stroke-width="1.5" opacity="0.15" stroke-dasharray="4,6"/>
+        </svg>
+        <span class="logo-name">Oficinas y Papeles</span>
+      </a>
+
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="#galeria" class="active">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#categorias">Categorias</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+
+        <div class="nav-icons">
+          <button class="nav-icon-btn open-search" aria-label="Buscar">🔍</button>
+          <button class="nav-icon-btn open-cart" aria-label="Carrito" style="position:relative;">
+            🛒
+            <span class="nav-cart-badge">0</span>
+          </button>
+        </div>
+
+        <a href="#contacto" class="nav-cta">Cotizar</a>
+
+        <button class="hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- GALLERY CAROUSEL -->
+  <section class="section gallery-section" id="galeria">
+    <div class="carousel-wrapper">
+      <button class="carousel-btn carousel-prev" aria-label="Anterior">❮</button>
+      <div class="carousel-track-container">
+        <div class="carousel-track">
+          <div class="carousel-slide">
+            <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&h=500&fit=crop" alt="Biblioteca con estantes de libros" loading="lazy">
+            <div class="slide-caption"><span>Biblioteca</span> miles de libros te esperan</div>
+          </div>
+          <div class="carousel-slide">
+            <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&h=500&fit=crop" alt="Estantes de libros organizados" loading="lazy">
+            <div class="slide-caption"><span>Colecciones</span> organizadas para ti</div>
+          </div>
+          <div class="carousel-slide">
+            <img src="https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=800&h=500&fit=crop" alt="Papeleria y articulos de escritura" loading="lazy">
+            <div class="slide-caption"><span>Papeleria</span> articulos de calidad</div>
+          </div>
+          <div class="carousel-slide">
+            <img src="https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=800&h=500&fit=crop" alt="Material de oficina" loading="lazy">
+            <div class="slide-caption"><span>Oficina</span> soluciones completas</div>
+          </div>
+          <div class="carousel-slide">
+            <img src="https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=800&h=500&fit=crop" alt="Libros apilados" loading="lazy">
+            <div class="slide-caption"><span>Lectura</span> abre tu mente</div>
+          </div>
+          <div class="carousel-slide">
+            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=500&fit=crop" alt="Escritorio de trabajo" loading="lazy">
+            <div class="slide-caption"><span>Espacios</span> para crear e inspirar</div>
+          </div>
+          <div class="carousel-slide">
+            <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800&h=500&fit=crop" alt="Libro abierto" loading="lazy">
+            <div class="slide-caption"><span>Conocimiento</span> al alcance de tu mano</div>
+          </div>
+          <div class="carousel-slide">
+            <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&h=500&fit=crop" alt="Estanteria de libros" loading="lazy">
+            <div class="slide-caption"><span>Variedad</span> para todos los gustos</div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-btn carousel-next" aria-label="Siguiente">❯</button>
+    </div>
+    <div class="carousel-dots"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="nosotros">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image fade-in-left">
+          <img class="about-image-main" src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=600&h=400&fit=crop&q=80" alt="Biblioteca de libros - Oficinas y Papeles">
+          <div class="about-floating-card">
+            <div class="number">20+</div>
+            <div class="label">Anos<br>Sirviendote</div>
+          </div>
+        </div>
+        <div class="about-content fade-in-right">
+          <h2>Somos tu mejor opcion en papeleria y articulos de oficina</h2>
+          <p>Con mas de 20 anos de experiencia, en Oficinas y Papeles nos dedicamos a ofrecer la mejor variedad de productos para impulsar tu productividad y creatividad.</p>
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="about-feature-icon">🏆</div>
+              <div>
+                <h4>Calidad Garantizada</h4>
+                <p>Solo trabajamos con las mejores marcas del mercado</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">💰</div>
+              <div>
+                <h4>Precios Competitivos</h4>
+                <p>Los mejores precios sin sacrificar calidad</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">🚚</div>
+              <div>
+                <h4>Envio Rapido</h4>
+                <p>Entrega a domicilio en 24-48 horas</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">🤝</div>
+              <div>
+                <h4>Asesoria Personal</h4>
+                <p>Te ayudamos a encontrar exactamente lo que necesitas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="section" id="categorias">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-tag">📂 Nuestras Categorias</div>
+        <h2>Encuentra todo lo que necesitas</h2>
+        <p>Explora nuestra amplia gama de productos organizados para tu comodidad</p>
+      </div>
+      <div class="categories-grid">
+        <div class="category-card fade-in">
+          <div class="category-icon">
+            <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=200&h=200&fit=crop&q=80" alt="Libros y Revistas">
+          </div>
+          <h3>Libros y Revistas</h3>
+          <p>Libros de texto, literatura, revistas y publicaciones periodicas</p>
+        </div>
+        <div class="category-card fade-in">
+          <div class="category-icon">
+            <img src="https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=200&h=200&fit=crop&q=80" alt="Papeleria">
+          </div>
+          <h3>Papeleria</h3>
+          <p>Boligrafos, lapices, marcadores, cuadernos y blocs de notas</p>
+        </div>
+        <div class="category-card fade-in">
+          <div class="category-icon">
+            <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=200&h=200&fit=crop&q=80" alt="Articulos de Oficina">
+          </div>
+          <h3>Articulos de Oficina</h3>
+          <p>Clips, carpetas, archivadores, organizadores y mas</p>
+        </div>
+        <div class="category-card fade-in">
+          <div class="category-icon">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=200&h=200&fit=crop&q=80" alt="Tecnologia">
+          </div>
+          <h3>Tecnologia</h3>
+          <p>Impresoras, cartuchos, cables, accesorios computacionales</p>
+        </div>
+        <div class="category-card fade-in">
+          <div class="category-icon">
+            <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=200&h=200&fit=crop&q=80" alt="Arte y Diseno">
+          </div>
+          <h3>Arte y Diseno</h3>
+          <p>Pinceles, acuarelas, lienzos, papel especial y mas</p>
+        </div>
+        <div class="category-card fade-in">
+          <div class="category-icon">
+            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=200&h=200&fit=crop&q=80" alt="Empaque">
+          </div>
+          <h3>Empaque</h3>
+          <p>Cajas, bolsas, papel de regalo, cintas y material de empaque</p>
+        </div>
+        <div class="category-card fade-in">
+          <div class="category-icon">
+            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=200&h=200&fit=crop&q=80" alt="Limpieza">
+          </div>
+          <h3>Limpieza</h3>
+          <p>Productos de limpieza para oficina y hogar</p>
+        </div>
+        <div class="category-card fade-in">
+          <div class="category-icon">
+            <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=200&h=200&fit=crop&q=80" alt="Mobiliario">
+          </div>
+          <h3>Mobiliario</h3>
+          <p>Sillas, escritorios, estantes y accesorios para tu espacio</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="section products" id="productos">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-tag">🔥 Productos Destacados</div>
+        <h2>Lo mas vendido</h2>
+        <p>Descubre nuestros productos mas populares con los mejores precios</p>
+      </div>
+
+      <div class="products-tabs fade-in">
+        <button class="tab-btn active" data-filter="all">Todos</button>
+        <button class="tab-btn" data-filter="papeleria">Papeleria</button>
+        <button class="tab-btn" data-filter="libros">Libros</button>
+        <button class="tab-btn" data-filter="oficina">Oficina</button>
+        <button class="tab-btn" data-filter="tecnologia">Tecnologia</button>
+      </div>
+
+      <div class="products-grid">
+        <!-- Product 1 -->
+        <div class="product-card fade-in" data-category="papeleria">
+          <span class="product-badge badge-popular">Popular</span>
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=300&h=200&fit=crop&q=80" alt="Set de 10 Cuadernos Universitarios">
+            <div class="product-actions">
+              <button class="product-action-btn" title="Favorito">♡</button>
+              <button class="product-action-btn" title="Vista rapida">👁</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-category">Papeleria</span>
+            <h3>Set de 10 Cuadernos Universitarios</h3>
+            <div class="product-rating">
+              <span class="stars">★★★★★</span>
+              <span class="rating-count">(128)</span>
+            </div>
+            <div class="product-bottom">
+              <div class="product-price">
+                <span class="price-current">$249.99</span>
+                <span class="price-old">$349.99</span>
+              </div>
+              <button class="btn-add-cart" onclick="addToCart(1, 'Set Cuadernos Universitarios', 249.99, '📒')">+</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card fade-in" data-category="papeleria">
+          <span class="product-badge badge-new">Nuevo</span>
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=300&h=200&fit=crop&q=80" alt="Pack 50 Boligrafos de Color">
+            <div class="product-actions">
+              <button class="product-action-btn" title="Favorito">♡</button>
+              <button class="product-action-btn" title="Vista rapida">👁</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-category">Papeleria</span>
+            <h3>Pack 50 Boligrafos de Color</h3>
+            <div class="product-rating">
+              <span class="stars">★★★★☆</span>
+              <span class="rating-count">(89)</span>
+            </div>
+            <div class="product-bottom">
+              <div class="product-price">
+                <span class="price-current">$189.99</span>
+              </div>
+              <button class="btn-add-cart" onclick="addToCart(2, 'Pack 50 Boligrafos', 189.99, '🖊️')">+</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card fade-in" data-category="libros">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=300&h=200&fit=crop&q=80" alt="Enciclopedia del Conocimiento General">
+            <div class="product-actions">
+              <button class="product-action-btn" title="Favorito">♡</button>
+              <button class="product-action-btn" title="Vista rapida">👁</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-category">Libros</span>
+            <h3>Enciclopedia del Conocimiento General</h3>
+            <div class="product-rating">
+              <span class="stars">★★★★★</span>
+              <span class="rating-count">(56)</span>
+            </div>
+            <div class="product-bottom">
+              <div class="product-price">
+                <span class="price-current">$599.99</span>
+                <span class="price-old">$799.99</span>
+              </div>
+              <button class="btn-add-cart" onclick="addToCart(3, 'Enciclopedia Conocimiento', 599.99, '📖')">+</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card fade-in" data-category="oficina">
+          <span class="product-badge badge-sale">-30%</span>
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=300&h=200&fit=crop&q=80" alt="Archivador Vertical Premium">
+            <div class="product-actions">
+              <button class="product-action-btn" title="Favorito">♡</button>
+              <button class="product-action-btn" title="Vista rapida">👁</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-category">Oficina</span>
+            <h3>Archivador Vertical Premium</h3>
+            <div class="product-rating">
+              <span class="stars">★★★★☆</span>
+              <span class="rating-count">(74)</span>
+            </div>
+            <div class="product-bottom">
+              <div class="product-price">
+                <span class="price-current">$349.99</span>
+                <span class="price-old">$499.99</span>
+              </div>
+              <button class="btn-add-cart" onclick="addToCart(4, 'Archivador Vertical', 349.99, '🗂️')">+</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card fade-in" data-category="tecnologia">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=300&h=200&fit=crop&q=80" alt="Impresora Laser Multifuncion">
+            <div class="product-actions">
+              <button class="product-action-btn" title="Favorito">♡</button>
+              <button class="product-action-btn" title="Vista rapida">👁</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-category">Tecnologia</span>
+            <h3>Impresora Laser Multifuncion</h3>
+            <div class="product-rating">
+              <span class="stars">★★★★★</span>
+              <span class="rating-count">(203)</span>
+            </div>
+            <div class="product-bottom">
+              <div class="product-price">
+                <span class="price-current">$4,599.99</span>
+              </div>
+              <button class="btn-add-cart" onclick="addToCart(5, 'Impresora Laser Multifuncion', 4599.99, '🖨️')">+</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card fade-in" data-category="papeleria">
+          <span class="product-badge badge-popular">Popular</span>
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=300&h=200&fit=crop&q=80" alt="Set Profesional de Marcadores">
+            <div class="product-actions">
+              <button class="product-action-btn" title="Favorito">♡</button>
+              <button class="product-action-btn" title="Vista rapida">👁</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-category">Papeleria</span>
+            <h3>Set Profesional de Marcadores</h3>
+            <div class="product-rating">
+              <span class="stars">★★★★★</span>
+              <span class="rating-count">(312)</span>
+            </div>
+            <div class="product-bottom">
+              <div class="product-price">
+                <span class="price-current">$899.99</span>
+                <span class="price-old">$1,199.99</span>
+              </div>
+              <button class="btn-add-cart" onclick="addToCart(6, 'Set Marcadores Profesional', 899.99, '🎨')">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROMO BANNER -->
+  <section class="promo">
+    <div class="container">
+      <div class="promo-grid">
+        <div class="promo-content fade-in-left">
+          <h2>Ofertas <em>exclusivas</em> para nuestros clientes</h2>
+          <p>Suscribete a nuestro newsletter y recibe descuentos especiales, ofertas de temporada y novedades antes que nadie.</p>
+          <form class="promo-form newsletter-form">
+            <input type="email" placeholder="Tu correo electronico..." required>
+            <button type="submit">Suscribirse</button>
+          </form>
+          <div class="promo-features">
+            <div class="promo-feature">
+              <span class="check">✓</span>
+              Descuentos exclusivos
+            </div>
+            <div class="promo-feature">
+              <span class="check">✓</span>
+              Ofertas anticipadas
+            </div>
+            <div class="promo-feature">
+              <span class="check">✓</span>
+              Sin spam
+            </div>
+          </div>
+        </div>
+        <div class="promo-visual fade-in-right">
+          <div class="promo-discount">
+            <div class="amount">25%</div>
+            <div class="off">DESCUENTO</div>
+            <p>En tu primera compra online</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section services" id="servicios">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-tag">⭐ Nuestros Servicios</div>
+        <h2>Mas que una papeleria</h2>
+        <p>Soluciones integrales para personas y empresas</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card fade-in">
+          <div class="service-icon"><span>🖨️</span></div>
+          <h3>Impresion y Copiado</h3>
+          <p>Servicio de impresion en alta resolucion, copias a color y blanco y negro, formatos personalizados y laminado.</p>
+          <a href="#contacto" class="service-link">Mas informacion →</a>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon"><span>📋</span></div>
+          <h3>Suministro Empresarial</h3>
+          <p>Paqueterias completas de articulos de oficina para empresas. Entregas programadas y precios mayoristas.</p>
+          <a href="#contacto" class="service-link">Mas informacion →</a>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon"><span>🎁</span></div>
+          <h3>Regalos Corporativos</h3>
+          <p>Articulos personalizados con logo de tu empresa. Llaveros, agendas, boligrafos y mas para eventos y promociones.</p>
+          <a href="#contacto" class="service-link">Mas informacion →</a>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon"><span>📐</span></div>
+          <h3>Diseno Grafico</h3>
+          <p>Diseno de material publicitario, tarjetas de presentacion, volantes, flyers y todo tipo de material impreso.</p>
+          <a href="#contacto" class="service-link">Mas informacion →</a>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon"><span>📦</span></div>
+          <h3>Envios a Domicilio</h3>
+          <p>Recibe tus productos en la puerta de tu hogar u oficina. Envios express en la misma ciudad en menos de 24 horas.</p>
+          <a href="#contacto" class="service-link">Mas informacion →</a>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon"><span>🎓</span></div>
+          <h3>Paquetes Escolares</h3>
+          <p>Paquetes completos de material escolar por grado. Incluye cuadernos, lapices, colores, mochilas y mas.</p>
+          <a href="#contacto" class="service-link">Mas informacion →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section testimonials">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-tag">💬 Testimonios</div>
+        <h2>Lo que dicen nuestros clientes</h2>
+        <p>Miles de clientes confian en nosotros para sus necesidades de oficina y papeleria</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card fade-in">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"Excelente atencion y variedad de productos. Llevo 5 anos comprando aqui y siempre me sorprenden con su servicio al cliente."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">MG</div>
+            <div>
+              <div class="testimonial-name">Maria Garcia</div>
+              <div class="testimonial-role">Gerente de Oficina</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card fade-in">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"Los mejores precios que he encontrado. Mi empresa necesita mucho material y siempre cumplen con entregas puntuales y calidad."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">RL</div>
+            <div>
+              <div class="testimonial-name">Roberto Lopez</div>
+              <div class="testimonial-role">Director Comercial</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card fade-in">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"Como profesora, siempre necesito material de calidad. En Oficinas y Papeles encuentro todo lo que necesito a precios accesibles."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AS</div>
+            <div>
+              <div class="testimonial-name">Ana Sanchez</div>
+              <div class="testimonial-role">Profesora de Primaria</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BRANDS MARQUEE -->
+  <div class="brands">
+    <div class="container">
+      <div class="brands-title">Marcas que trabajamos</div>
+    </div>
+    <div style="overflow:hidden;">
+      <div class="brands-track">
+        <span class="brand-item">BIC</span>
+        <span class="brand-item">PILOT</span>
+        <span class="brand-item">STAPLES</span>
+        <span class="brand-item">FABER-CASTELL</span>
+        <span class="brand-item">MONGOL</span>
+        <span class="brand-item">KOH-I-NOOR</span>
+        <span class="brand-item">CASIO</span>
+        <span class="brand-item">HP</span>
+        <span class="brand-item">CANON</span>
+        <span class="brand-item">EPSON</span>
+        <span class="brand-item">LEXUS</span>
+        <span class="brand-item">DIXON</span>
+        <span class="brand-item">BIC</span>
+        <span class="brand-item">PILOT</span>
+        <span class="brand-item">STAPLES</span>
+        <span class="brand-item">FABER-CASTELL</span>
+        <span class="brand-item">MONGOL</span>
+        <span class="brand-item">KOH-I-NOOR</span>
+        <span class="brand-item">CASIO</span>
+        <span class="brand-item">HP</span>
+        <span class="brand-item">CANON</span>
+        <span class="brand-item">EPSON</span>
+        <span class="brand-item">LEXUS</span>
+        <span class="brand-item">DIXON</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contacto">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-tag">📩 Contacto</div>
+        <h2>Estamos aqui para ayudarte</h2>
+        <p>Comunicate con nosotros para cotizaciones, pedidos especiales o cualquier consulta</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info fade-in-left">
+          <h3>Informacion de contacto</h3>
+          <p>Estamos disponibles para atenderte de lunes a sabado. No dudes en contactarnos.</p>
+          <div class="contact-details">
+            <div class="contact-detail">
+              <div class="contact-detail-icon">📍</div>
+              <div>
+                <h4>Direccion</h4>
+                <p>Calle 56 #40-25, Barrio Abajo<br>Barranquilla, Atlantico</p>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-detail-icon">📞</div>
+              <div>
+                <h4>Telefono</h4>
+                <p>+57 (5) 345-6789<br>+57 (5) 987-6543</p>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-detail-icon">✉️</div>
+              <div>
+                <h4>Correo Electronico</h4>
+                <p>info@oficinasympapeles.com<br>ventas@oficinasympapeles.com</p>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-detail-icon">🕐</div>
+              <div>
+                <h4>Horario</h4>
+                <p>Lunes a Viernes: 9:00 - 19:00<br>Sabado: 9:00 - 14:00</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="#" class="social-link" title="Facebook">f</a>
+            <a href="#" class="social-link" title="Instagram">📷</a>
+            <a href="#" class="social-link" title="Twitter">𝕏</a>
+            <a href="#" class="social-link" title="TikTok">♪</a>
+          </div>
+        </div>
+        <div class="contact-form-wrapper fade-in-right">
+          <h3>Envianos un mensaje</h3>
+          <p>Completa el formulario y te responderemos lo antes posible</p>
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Nombre completo *</label>
+                <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Correo electronico *</label>
+                <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Telefono</label>
+                <input type="tel" id="phone" name="phone" placeholder="+57 (5) 000-0000">
+              </div>
+              <div class="form-group">
+                <label for="subject">Asunto *</label>
+                <select id="subject" name="subject" required>
+                  <option value="">Selecciona un asunto</option>
+                  <option value="cotizacion">Cotizacion</option>
+                  <option value="pedido">Pedido especial</option>
+                  <option value="servicio">Informacion de servicio</option>
+                  <option value="queja">Queja o sugerencia</option>
+                  <option value="otro">Otro</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Mensaje *</label>
+              <textarea id="message" name="message" placeholder="Escribe tu mensaje aqui..." required></textarea>
+            </div>
+            <button type="submit" class="form-submit">Enviar Mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-contact-bar">
+      <div class="container">
+        <div class="footer-contact-items">
+          <div class="footer-contact-item">
+            <span class="fci-icon">📍</span>
+            <div>
+              <strong>Direccion</strong>
+              <p>Calle 56 #40-25, Barrio Abajo, Barranquilla</p>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <span class="fci-icon">📞</span>
+            <div>
+              <strong>Telefono</strong>
+              <p>+57 (5) 345-6789</p>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <span class="fci-icon">✉️</span>
+            <div>
+              <strong>Email</strong>
+              <p>info@oficinasympapeles.com</p>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <span class="fci-icon">🕐</span>
+            <div>
+              <strong>Horario</strong>
+              <p>Lun-Vie: 9:00-19:00 | Sab: 9:00-14:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-main">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <svg class="logo-icon" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg" style="width:36px;height:36px;">
+                <polygon points="35,2 58,12 68,35 58,58 35,68 12,58 2,35 12,12" fill="rgba(255,255,255,0.15)"/>
+                <polygon points="35,6 55,14 64,35 55,56 35,64 15,56 6,35 15,14" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+                <path d="M20,22 L20,48 Q35,42 35,42 Q35,42 50,48 L50,22 Q35,28 35,28 Q35,28 20,22Z" fill="white" opacity="0.9"/>
+                <line x1="35" y1="28" x2="35" y2="45" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+                <path d="M23,27 L32,30" stroke="rgba(255,255,255,0.3)" stroke-width="1.2"/>
+                <path d="M23,31 L32,34" stroke="rgba(255,255,255,0.25)" stroke-width="1.2"/>
+                <path d="M38,30 L47,27" stroke="rgba(255,255,255,0.3)" stroke-width="1.2"/>
+                <path d="M38,34 L47,31" stroke="rgba(255,255,255,0.25)" stroke-width="1.2"/>
+                <g transform="translate(44,10) rotate(35)">
+                  <rect x="0" y="0" width="4" height="20" rx="1" fill="white" opacity="0.7"/>
+                  <polygon points="0,20 4,20 2,25" fill="white" opacity="0.5"/>
+                  <rect x="0" y="0" width="4" height="3" rx="1" fill="white" opacity="0.4"/>
+                </g>
+                <circle cx="35" cy="35" r="30" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1" stroke-dasharray="4,6"/>
+              </svg>
+              <span class="logo-name" style="color:white;">Oficinas y Papeles</span>
+            </a>
+            <p>Tu aliado de confianza en articulos de oficina, papeleria y todo lo que necesitas para ser mas productivo y creativo. En Barranquilla desde 2005.</p>
+            <div class="footer-socials">
+              <a href="#" class="social-link" title="Facebook">f</a>
+              <a href="#" class="social-link" title="Instagram">📷</a>
+              <a href="#" class="social-link" title="TikTok">♪</a>
+            </div>
+          </div>
+          <div>
+            <h4>Enlaces Rapidos</h4>
+            <ul class="footer-links">
+              <li><a href="#galeria">Inicio</a></li>
+              <li><a href="#nosotros">Nosotros</a></li>
+              <li><a href="#categorias">Categorias</a></li>
+              <li><a href="#productos">Productos</a></li>
+              <li><a href="#servicios">Servicios</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Categorias</h4>
+            <ul class="footer-links">
+              <li><a href="#categorias">Libros y Revistas</a></li>
+              <li><a href="#categorias">Papeleria</a></li>
+              <li><a href="#categorias">Articulos de Oficina</a></li>
+              <li><a href="#categorias">Tecnologia</a></li>
+              <li><a href="#categorias">Arte y Diseno</a></li>
+              <li><a href="#categorias">Empaque</a></li>
+            </ul>
+          </div>
+          <div class="footer-newsletter">
+            <h4>Newsletter</h4>
+            <p>Recibe ofertas exclusivas y novedades directamente en tu correo.</p>
+            <form class="footer-newsletter-form newsletter-form">
+              <input type="email" placeholder="Tu correo..." required>
+              <button type="submit">→</button>
+            </form>
+            <div style="margin-top:28px;">
+              <h4>Marcas que trabajamos</h4>
+              <p style="color:rgba(255,255,255,0.4);font-size:0.82rem;line-height:1.8;">BIC, Pilot, Faber-Castell, Koh-I-Noor, HP, Canon, Epson, Mongol, Dixon</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 Oficinas y Papeles - Barranquilla, Colombia. Todos los derechos reservados.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Politica de Privacidad</a>
+          <a href="#">Terminos y Condiciones</a>
+          <a href="#">Aviso Legal</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOAT -->
+  <a href="https://wa.me/573001234567" target="_blank" class="whatsapp-float" title="Contactanos por WhatsApp">💬</a>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" aria-label="Volver arriba">↑</button>
+
+  <!-- CART SIDEBAR -->
+  <div class="cart-overlay"></div>
+  <div class="cart-sidebar">
+    <div class="cart-header">
+      <h3>Mi Carrito 🛒</h3>
+      <button class="cart-close">✕</button>
+    </div>
+    <div class="cart-items">
+      <div class="cart-empty">
+        <span>🛒</span>
+        <p>Tu carrito esta vacio</p>
+      </div>
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>Total:</span>
+        <span class="cart-total-amount">$0.00</span>
+      </div>
+      <button class="btn-checkout" onclick="alert('Funcionalidad de pago en desarrollo. Gracias por tu compra!')">Proceder al Pago</button>
+    </div>
+  </div>
+
+  <!-- SEARCH MODAL -->
+  <div class="search-modal">
+    <div class="search-box">
+      <div class="search-input-wrapper">
+        <span>🔍</span>
+        <input type="text" class="search-input" placeholder="Buscar productos, categorias, servicios...">
+      </div>
+      <div class="search-suggestions">
+        <h4>Busquedas populares</h4>
+        <span class="search-tag">Boligrafos</span>
+        <span class="search-tag">Cuadernos</span>
+        <span class="search-tag">Impresora</span>
+        <span class="search-tag">Papel bond</span>
+        <span class="search-tag">Marcadores</span>
+        <span class="search-tag">Archivadores</span>
+        <span class="search-tag">Libros</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
